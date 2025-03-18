@@ -1,6 +1,6 @@
 ## FIDOpower Overview
 
-FIDOpower is a proposed rebrand and update of OpenFIDO, a CEC-funded project which was adopted by LF Energy as an open-source project. The original abstract for OpenFIDO is as follows:
+FIDOpower is an update of OpenFIDO, a CEC-funded project which was adopted by LF Energy as an open-source project. The original abstract for OpenFIDO is as follows:
 
 <I>
 California utilities, customers, consulting engineers and regulators need to exchange power system data, yet this can be cumbersome and error prone, raising barriers to effective resource integration, curbing growth of these resources, and limiting how quickly California can reach its climate change mitigation goals. 
@@ -12,11 +12,11 @@ OpenFIDO allows utility planners and grid researchers to move data quickly betwe
 Project results included (1) identifying data analysis requirements needed to support critical electricity use-cases, (2) delivering a new open-source utility data interoperability and analytics workflow management platform at Southern California Edison, and (3) delivering an open source analytic tool delivery environment for workstation, on-premises server, and cloud infrastructure to enable key utility use-cases for commercialization by Linux Foundation Energy.
 </I>
 
-The technology on which OpenFIDO was built is fast becoming obsolete and difficult to maintain. The framework for development is over 10 years old and the workflow methodology lacks the formal development now available in modern tools such as Marimo. Marimo was developed over the last few years with funding in part from SLAC National Accelerator Laboratory as a solution to many of the problems and challenges uncovered during the development of OpenFIDO.
+The technology on which OpenFIDO was built is fast becoming obsolete and difficult to maintain. The framework for development is over 10 years old and the workflow methodology lacks the formal development now available in modern tools such as [Marimo](https://marimo.io). Marimo was developed over the last few years with funding in part from SLAC National Accelerator Laboratory as a solution to many of the problems and challenges uncovered during the development of OpenFIDO.
 
 ## About Marimo
 
-We propose to redeploy all the OpenFIDO pipelines as Marimo notebooks and brand this new version of OpenFIDO under the name FIDOpower. This approach has the following advantages over the existing OpenFIDO deployment:
+FIDOpower is a redevelopment of OpenFIDO pipelines as Marimo notebooks. This approach has the following advantages over the existing OpenFIDO deployment:
 
 * Eliminates the need to develop and deploy a UI framework. The existing OpenFIDO implementation has a custom UI that must be maintained and deployed on an AWS platform. These cost LF Energy and the project contributors time and money that is better focused on the development and validation of workflows and pipelines.
 
@@ -28,7 +28,7 @@ We propose to redeploy all the OpenFIDO pipelines as Marimo notebooks and brand 
 
 * Uses reactive UI and data inputs. Marimo can automatically update results when inputs from the user or data sources change. This is not available in OpenFIDO, where the user must always request a new run of a pipeline, even when doing basic exploration and analysis where such a feature is intuitively obvious and highly valuable.
 
-* Marimo supports the most important functional requirements in OpenFIDO, specifically
+Marimo supports the most important functional requirements in OpenFIDO, specifically
 
 * Marimo supports local, hosted, and browser-based deployment models. 
 
@@ -38,7 +38,7 @@ We propose to redeploy all the OpenFIDO pipelines as Marimo notebooks and brand 
 
 * Marimo notebooks enable highly reproducible results. 
 
-* Marimo notebooks are compatible with git to enable collaboration and histories.
+* Marimo notebooks are compatible with `git` to enable collaboration and histories.
 
 * Marimo notebooks can be deployed as either scripts or apps.
 
