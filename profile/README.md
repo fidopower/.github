@@ -1,6 +1,6 @@
 ## FIDOpower Overview
 
-FIDOpower is an update of OpenFIDO, a CEC-funded project which was adopted by LF Energy as an open-source project. The original abstract for OpenFIDO is as follows:
+FIDOpower is an update of [OpenFIDO](https://github.com/openfido), a CEC-funded project which was adopted by LF Energy as an open-source project. The original abstract for OpenFIDO is as follows:
 
 <I>
 California utilities, customers, consulting engineers and regulators need to exchange power system data, yet this can be cumbersome and error prone, raising barriers to effective resource integration, curbing growth of these resources, and limiting how quickly California can reach its climate change mitigation goals. 
