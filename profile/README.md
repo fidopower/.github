@@ -1,3 +1,7 @@
+## Quick Links
+
+* [Optimal Powerflow/Sizing/Placement](https://marimo.io/p/@lfenergy-fidopower/optimal-sizing-placement?show-code=false)
+
 ## FIDOpower Overview
 
 FIDOpower is an update of [OpenFIDO](https://github.com/openfido), a CEC-funded project which was adopted by LF Energy as an open-source project. The original abstract for OpenFIDO is as follows:
