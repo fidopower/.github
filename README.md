@@ -1,4 +1,9 @@
-## FIDOpower Overview
+![](https://github.com/lf-energy/artwork/blob/master/projects/fidopower/FIDOpower-color.svg)
+
+![GitHub](https://img.shields.io/github/license/lfenergy/fidopower)
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/CII ID/badge)](https://bestpractices.coreinfrastructure.org/projects/CII ID)
+
+# FIDOpower
 
 FIDOpower is a proposed rebrand and update of OpenFIDO, a CEC-funded project which was adopted by LF Energy as an open-source project. The original abstract for OpenFIDO is as follows:
 
@@ -13,6 +18,33 @@ Project results included (1) identifying data analysis requirements needed to su
 </I>
 
 The technology on which OpenFIDO was built is fast becoming obsolete and difficult to maintain. The framework for development is over 10 years old and the workflow methodology lacks the formal development now available in modern tools such as Marimo. Marimo was developed over the last few years with funding in part from SLAC National Accelerator Laboratory as a solution to many of the problems and challenges uncovered during the development of OpenFIDO.
+
+## Install
+
+See [INSTALL.md]
+
+## Build
+
+See [BUILD.md]
+
+## Discussion
+
+You can connect with the community in a variety of ways...
+
+- [FIDOpower discussion group](https://lists.lfenergy.org/g/fidopower)
+
+## Contributing
+
+Anyone can contribute to the FIDOpower project - learn more at [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## Governance
+
+FIDOpower is a project hosted by the [LF Energy Foundation](https://lfenergy.org). This project's techincal charter is located in [CHARTER.md](tsc/CHARTER.md) and has established it's own processes for managing day-to-day processes in the project at [GOVERNANCE.md](GOVERNANCE.md).
+
+## Reporting Issues
+To report a problem, you can open an [issue](https://github.com/lf-energy/FIDOpower/issues) in repository against a specific workflow. If the issue is senstive in nature or a security related issue, please do not report in the issue tracker but instead email FIDOpower-private@lists.lfenergy.org.
+
+# FIDOpower Workplan
 
 ## About Marimo
 
